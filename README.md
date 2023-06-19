@@ -30,3 +30,4 @@ https://github.com/Edresson/YourTTS
 
 1. Run setup.sh to obtian a repository, weights and config files
 2. Write paths to all config files, weights and repository in config.yaml
+3. install requirements
