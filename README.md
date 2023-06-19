@@ -4,7 +4,7 @@
 python3 tg_bot.py
 ```
 
-### Generate text with given speaker styles
+### Generate text with a given speaker styles
 
 - 'out' a folder to save audio
 - 'sf' a folder with reference files in wav
