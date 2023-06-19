@@ -1,0 +1,15 @@
+TTS_PATH: "/home/diff7/Desktop/code/speech/TTS/" # a path to TTS repository
+OUT_PATH: "/home/diff7/Desktop/code/speech/out/"
+MODEL_PATH: "/home/diff7/Desktop/code/speech/best_model.pth.tar" # going to be downloaded with setup.sh
+CONFIG_PATH: "/home/diff7/Desktop/code/speech/config.json" # going to be downloaded with setup.sh
+TTS_LANGUAGES: "/home/diff7/Desktop/code/speech/language_ids.json" # going to be downloaded with setup.sh
+TTS_SPEAKERS: "/home/diff7/Desktop/code/speech/speakers.json" # going to be downloaded with setup.sh
+
+CONFIG_SE_PATH: "/home/diff7/Desktop/code/speech/config_se.json" # going to be downloaded with setup.sh
+CHECKPOINT_SE_PATH: "/home/diff7/Desktop/code/speech/SE_checkpoint.pth.tar" # going to be downloaded with setup.sh
+
+language_id: 0
+length_scale: 3 # scaler for the duration predictor. The larger it is, the slower the speech.
+inference_noise_scale: 0.3 # defines the noise variance applied to the random z vector at inference.
+inference_noise_scale_dp: 0.3 # defines the noise variance applied to the duration predictor z vector at inference.
+
