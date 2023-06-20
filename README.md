@@ -38,7 +38,9 @@ https://github.com/Edresson/YourTTS
 YourTTS is good open sourced model, better models include VALL-E and singer voice generation but they are not open sourced or fast enough.
 
 
-> Generated samples can be found in 'out_folder'
-> Similarity scores are in scores.txt
+### Results
+
+> Generated samples can be found in 'out_folder' <br>
+> Similarity scores are in scores.txt <br>
 
 
