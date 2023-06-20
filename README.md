@@ -14,7 +14,7 @@ python3 tg_bot.py
 ```bash
 python3 run_files.py -sf '../speech/speakers/' -r 1 -out './out_folder/' -t "Real stupidity beats artificial intelligence every time"
 ```
-#### Generated samples can be found in 'out_folder'
+> Generated samples can be found in 'out_folder'
 
 ### To compute similarity scores use the following script:
 
@@ -33,4 +33,8 @@ https://github.com/Edresson/YourTTS
 2. Write paths to all config files, weights and repository in config.yaml
 3. install requirements
 
+
+### Reasoning of choice
+
+YourTTS is good open sourced model, better models include VALL-E and singer voice generation but they are not open sourced or fast enough.
 
